@@ -78,11 +78,7 @@
     "lint": "eslint .",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "cy:open": "cypress open",
-    "cy:run": "cypress run",
-    "test:e2e": "start-server-and-test develop http://localhost:9000 cy:open",
-    "test:e2e:ci": "start-server-and-test serve http://localhost:9000 cy:run"
+    "clean": "gatsby clean"
   },
   "husky": {
     "hooks": {
